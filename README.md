@@ -110,5 +110,4 @@ Report generated successfully.
 📧 Email: muchukuntlabrahmanaidu@gmail.com  
 🌐 GitHub: [Naidi47](https://github.com/Naidi47)  
 🔗 LinkedIn: [Brahmanaidu Muchukuntla](https://www.linkedin.com/in/brahmanaidu-muchukuntla-17a1a9242/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naidi47/student-performance-prediction-ML/blob/main/notebooks/student_performance.ipynb)
-
+Click here to run code: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naidi47/student-performance-prediction-ML/blob/main/notebooks/student_performance.ipynb)
