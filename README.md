@@ -4,6 +4,12 @@
 This project predicts students' **final grades (G3)** based on their academic, demographic, and social data.  
 It uses **Linear Regression** to estimate how different features (study time, absences, prior grades, etc.) influence student performance.
 
+The notebook allows you to:
+- Explore data interactively  
+- Visualize relationships between features and target  
+- Train and evaluate the model in individual code cells  
+- View real-time charts, metrics, and outputs  
+
 ---
 
 ## 📂 Project Structure
@@ -11,9 +17,13 @@ It uses **Linear Regression** to estimate how different features (study time, ab
 student_performance_project/
 │
 ├── data/
-│   └── student-mat.csv               # Dataset (to be added manually)
+│   └── student-por.csv               # Dataset (to be added manually)
+│
+├── notebooks/
+│   └── student_performance.ipynb     # Main Jupyter notebook (run cell by cell)
 │
 ├── src/
+│   ├── main.py                       # Script version (optional - full pipeline)
 │   ├── data_preprocessing.py         # Handles data loading, encoding, and scaling
 │   ├── model_training.py             # Trains the ML model
 │   └── evaluation.py                 # Evaluates and generates performance report
@@ -23,12 +33,13 @@ student_performance_project/
 │   └── performance_report.txt        # Model evaluation results
 │
 ├── requirements.txt                  # Python dependencies
-└── main.py                           # Main pipeline script
+├── README.md                         # Documentation
+└── .gitignore                        # Ignore cache, data, checkpoints, etc.
 ```
 
 ---
 
-##  How to Run the Project
+## 🧠 How to Run the Notebook
 
 ### 1️⃣ Install Dependencies
 ```bash
@@ -37,19 +48,30 @@ pip install -r requirements.txt
 
 ### 2️⃣ Add Dataset
 Download the dataset from the [UCI Repository](https://archive.ics.uci.edu/ml/datasets/student+performance)  
-and place `student-mat.csv` in the `/data` folder.
+and place `student-por.csv` in the `/data` folder.
 
-### 3️⃣ Run the Pipeline
+### 3️⃣ Open the Notebook
+You can open and run the notebook in one of two ways:
+
+#### 🖥️ Locally (Jupyter)
 ```bash
-python main.py
+jupyter notebook notebooks/student_performance.ipynb
 ```
+
+#### ☁️ In Google Colab
+Click this badge to open directly in Colab:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naidi47/student-performance-prediction-ML/blob/main/notebooks/student_performance.ipynb)
 
 ---
 
-##  Output Example
+## 📊 Output Example
 
-After running the project, you’ll get a detailed performance report in `/outputs/performance_report.txt`:
+After running all cells, the notebook will:
+- Display charts for data distribution and correlation  
+- Print model evaluation metrics  
+- Save a performance report in `/outputs/performance_report.txt`  
 
+Example report:
 ```
 =========================================
 STUDENT PERFORMANCE PREDICTION REPORT
@@ -74,11 +96,12 @@ Report generated successfully.
 
 ---
 
-##  Learning Outcomes
+## 🎯 Learning Outcomes
 - Hands-on practice with **regression analysis**
-- Experience with **data preprocessing**, **encoding**, and **scaling**
-- Understanding **feature importance** in ML models
-- Modularized, **production-ready Python ML project structure**
+- Understand how **academic, social, and personal factors** affect student success
+- Experience with **EDA**, **feature encoding**, and **scaling**
+- Learn **model evaluation and visualization** within Jupyter
+- Present an **interactive ML notebook** suitable for portfolio and GitHub
 
 ---
 
@@ -87,3 +110,5 @@ Report generated successfully.
 📧 Email: muchukuntlabrahmanaidu@gmail.com  
 🌐 GitHub: [Naidi47](https://github.com/Naidi47)  
 🔗 LinkedIn: [Brahmanaidu Muchukuntla](https://www.linkedin.com/in/brahmanaidu-muchukuntla-17a1a9242/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naidi47/student-performance-prediction-ML/blob/main/notebooks/student_performance.ipynb)
+

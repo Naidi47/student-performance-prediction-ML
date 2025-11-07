@@ -1,0 +1,45 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (raw or large datasets)
+data/*.csv
+data/*.txt
+data/*.R
+data/*.xlsx
+data/*.json
+
+# Model outputs and logs
+outputs/*.pkl
+outputs/*.txt
+outputs/*.log
+
+# System and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore any large files generated accidentally
+*.zip
+*.tar
+*.gz
+*.h5
+*.pth
+*.pt
