@@ -1,0 +1,4 @@
+Student Performance Prediction Report
+MAE: 0.76
+RMSE: 1.20
+R² Score: 0.85
