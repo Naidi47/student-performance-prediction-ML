@@ -1,6 +1,6 @@
 # 🎓 Student Performance Prediction Project
 
-## 📘 Overview
+## Overview
 This project predicts students' **final grades (G3)** based on their academic, demographic, and social data.  
 It uses **Linear Regression** to estimate how different features (study time, absences, prior grades, etc.) influence student performance.
 
@@ -39,7 +39,7 @@ student_performance_project/
 
 ---
 
-## 🧠 How to Run the Notebook
+## How to Run the Notebook
 
 ### 1️⃣ Install Dependencies
 ```bash
@@ -53,12 +53,12 @@ and place `student-por.csv` in the `/data` folder.
 ### 3️⃣ Open the Notebook
 You can open and run the notebook in one of two ways:
 
-#### 🖥️ Locally (Jupyter)
+#### Locally (Jupyter)
 ```bash
 jupyter notebook notebooks/student_performance.ipynb
 ```
 
-#### ☁️ In Google Colab
+#### In Google Colab
 Click this badge to open directly in Colab:  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naidi47/student-performance-prediction-ML/blob/main/notebooks/student_performance.ipynb)
 
@@ -96,7 +96,7 @@ Report generated successfully.
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 - Hands-on practice with **regression analysis**
 - Understand how **academic, social, and personal factors** affect student success
 - Experience with **EDA**, **feature encoding**, and **scaling**
